@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     overflow-x: hidden;   
+    background: url(web.jpg)no-repeat;
+     background-size: cover;
+     background-position: center;
+    
+}
+
+.logo{
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: monospace;
+    background: rgba(211, 211, 211, 0.8);
+    width:100%;
+    height: 10vh;
+    border-bottom: 2px solid #000;
+    color: #22223b;
+    position: sticky;
+    overflow: hidden;
+    
+}
+
+h1{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.logo span{
+    font-size:16px ;
+    text-transform: lowercase;
+    color: green;
+}
+
+.sidebar{
+    width:140px;
+    height:auto;
+    background: #0e606b;
+    position: fixed;
+    box-sizing: border-box;
+    float: left;
+     overflow-x: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.sidebar ul{
+    list-style: none;
+    line-height: 70px;
+    text-transform: uppercase;
+    
+}
+
+.sidebar  a{
+    text-decoration: none;
+        font-size: 16px;
+        color: #e9f5db;
+        display: inline-block;   
+}
+
+.sidebar li{
+    border-bottom: 1px solid white;
+}
+
+
+.sidebar li:hover{
+    background:#ff8662;
+      margin-left: 15px;
+    transition: 0.5s ease-in-out;
+    margin-top: 2px;
+    color: #000;
+}
+
+
+.fas{
+    padding:0 5px 0 5px;
+    font-size: 20px;
+    color: #250902;
+    
+}
+
+form{
+position: relative;
+margin: auto;
+font-size: 20px;
+text-align: center;
+top: 7vh;
+border: 1px solid black;
+width: 400px;
+height: 520px;
+line-height: 50px;
+border-radius: 50px;
+background: rgba(225,225,225,0.6);
+}
+
+legend{
+    font-size: larger;
+    font-family: fantasy;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    color: #023e8a;
+}
+
+.up{
+    outline: none;
+    background: none;
+    padding: 15px;
+    border: 1px solid #560bad;
+    border-radius: 40px;
+    margin: 20px;
+    width: 250px;
+    
+}
+.up::placeholder{
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+}
+
+.sub{
+    outline: none;
+    background: none;
+    border:1px solid #00b4d8 ;
+    border-radius: 40px;
+    width: 250px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 38px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+}
+.sub:hover{
+    background: #83c5be;
+    color:#000 ;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.fab{
+    margin: 20px;
+    font-size: larger;
+    
+}
+
+.fa-facebook-f{
+    background: white;
+    padding: 7px;
+    color: blue;
+    border-radius: 17px;
+}
+
+.fa-apple{
+    background: black;
+    color: white;
+    padding: 7px;
+     border-radius: 17px;
+}
+
+.fa-google{
+    background: white;
+    color: #dc2f02;
+    padding: 8px;
+     border-radius: 17px;
+}
+
+.user a{
+text-decoration: none;
+color: blue;
+}
+
+@media (max-width:768px) and (min-width:400px) {
+    form{
+        width: 300px;
+        line-height: 55px;
+        margin: auto;
+        top: 10vh;
+        height: 550px;
+    }
+    .sidebar{
+        display: none;
+    }
+    .logo{
+        text-align: center;
+        height: 8vh;
+    }
+    .up{
+        width: 220px;
+    }
+    .sub{
+        width: 224px;
+    }
+    .fab{
+bottom: 4px;
+    }
+    
+    
+}
