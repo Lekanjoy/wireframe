@@ -173,7 +173,7 @@ text-decoration: none;
 color: blue;
 }
 
-@media (max-width:768px) and (min-width:400px) {
+@media (max-width:768px) and (min-width:350px) {
     form{
         width: 300px;
         line-height: 55px;
